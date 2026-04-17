@@ -21,4 +21,16 @@ void input () // input
             cout<<"\n[!] Jumlah Elemen Tidak Boleh Lebih Dari 10. Silahkan Coba Lagi.\n";
         }
     }
+
+
+    // Memasukan Elemen Array Ke Void Input 
+    cout << "\n===========================================\n";
+    cout << "\n         Masukan Elemen Array              \n";
+    cout << "\n===========================================\n";
+
+    for (int i = 0; i < nPanjang; i++)
+    {
+        cout << "Data ke-" << (i + 1) << " = ";
+        cin >> element[i];
+    }
 }
